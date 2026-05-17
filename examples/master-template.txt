@@ -1,0 +1,192 @@
+============================================================
+STRONG TOWNS OTTAWA — MONTHLY NEWSLETTER TEMPLATE
+============================================================
+
+HOW TO USE THIS TEMPLATE
+1. Make a copy of this Google Doc and rename it
+   "[Month Year] Newsletter" (e.g. "June 2026 Newsletter").
+2. Fill in every block. Leave the [BLOCK]...[/BLOCK] tags
+   exactly as they are — the script needs them to find your
+   content.
+3. Duplicate any block (highlight, event, recap, etc.) as
+   many times as needed. Just copy from the opening tag
+   through the closing tag.
+4. Delete any block or section you don't need this month
+   (delete from [SECTION] through the final [/CLOSING-TAG]).
+5. Replace placeholder text shown in [BRACKETS].
+6. For links, use the normal Google Docs hyperlink feature
+   (Ctrl+K). Do NOT type out [text](url) — that's just a
+   readability trick used in the reference example file.
+7. Images: upload to your image host (Cloudinary or the STO
+   website media library), copy the absolute URL, paste it
+   into the Image: field.
+
+STYLING TIPS (visual only — does not affect the script)
+- Section "Name:" line → Heading 1 (shows in Outline sidebar)
+- Block "Title:" line → Heading 2 (shows in Outline sidebar)
+- Opening tags like [HIGHLIGHT] → normal text
+- Closing tags like [/HIGHLIGHT] → normal text (don't delete!)
+
+LAYOUT REMINDERS
+- Layout: optional per-block field. Values: "half" or "full".
+  Defaults: HIGHLIGHT/SPOTLIGHT/LEAD/NEWS/IMAGE-ONLY = full,
+  EVENT/RECAP = half. Orphan half-blocks auto-promote to full.
+- Buttons: add as many "Button: Label | URL" lines as you
+  need (max 3). Script picks the matching layout.
+
+For a fully filled-out example, see
+"may-newsletter-google-doc-example.txt" in this folder.
+
+============================================================
+
+
+[META]
+Title: [Month Year] Newsletter
+Preheader: [One-sentence preview shown in the inbox — about 90 chars max. Summarize the month's main stories.]
+[/META]
+
+
+[SECTION]
+Name: OUR HIGHLIGHTS
+[/SECTION]
+
+
+[LEAD]
+[Optional italic intro paragraph that sets up the month's main stories. Delete this whole [LEAD] block if you're jumping straight into the first highlight.]
+
+[Second paragraph if needed.]
+[/LEAD]
+
+
+(------ Duplicate the [HIGHLIGHT] block below for each highlight story this month. ------)
+
+[HIGHLIGHT]
+Title: [Story title]
+Image: [paste hosted image URL, or delete this whole line for a text-only highlight]
+Image Link: [optional — URL the image should link to when clicked. Delete the line if not used.]
+Caption: [optional italic caption shown below the image. Delete the line if not used.]
+Button: [Button label] | [URL]
+
+[Body of the highlight. Write naturally — separate paragraphs with a blank line.
+
+Use **bold** for emphasis. Use the normal Google Docs hyperlink feature for links.
+
+For nested bulleted lists under sub-headings, use the pattern:
+
+**Sub-heading**
+- First bullet
+- Second bullet]
+[/HIGHLIGHT]
+
+
+(------ OPTIONAL SECTION — delete the [SECTION] + all blocks below it if there's no action alert this month. ------)
+
+[SECTION]
+Name: ACTION ALERT
+[/SECTION]
+
+
+[HIGHLIGHT]
+Title: [Action alert title — what readers should do]
+Image: [hosted image URL]
+Image Link: [optional URL]
+Button: [Action button label, e.g. "Email the Team"] | [URL or mailto:]
+
+[Body explaining the action: what's happening, why it matters, what you want readers to do.]
+[/HIGHLIGHT]
+
+
+[SECTION]
+Name: UPCOMING EVENTS
+[/SECTION]
+
+
+(------ Duplicate the [EVENT] block below for each event this month. Events default to 2-column layout (text left, image right) and pair up automatically. ------)
+
+[EVENT]
+Title: [Event name]
+Date: [Day Month, Time — e.g. "June 11, 6:15 PM - 7:45 PM"]
+Location: [Venue name, Street address]
+Image: [hosted image URL — usually a square ~340px]
+Button: RSVP | [Luma or registration URL]
+
+[1–3 sentence description of the event. Who's it for, what's happening, anything special to note.]
+[/EVENT]
+
+
+(------ OPTIONAL SECTION — delete if there are no committee meetings to flag this month. ------)
+
+[SECTION]
+Name: CITY HALL MEETINGS
+[/SECTION]
+
+
+[CITY-HALL]
+- **[Date]:** [Committee or Council name] — [optional one-line note about what's on the agenda] ([link to agenda])
+- **[Date]:** [Committee name] — [note] ([link])
+[/CITY-HALL]
+
+
+(------ OPTIONAL SECTION — delete if no community group is being featured this month. ------)
+
+[SECTION]
+Name: COMMUNITY GROUP SPOTLIGHT
+[/SECTION]
+
+
+[SPOTLIGHT]
+Title: [Headline for the spotlight — usually a question or hook, not just the group's name]
+Image: [hosted image URL]
+Image Link: [optional URL the image should link to]
+Button: [e.g. "Visit Website To Learn More"] | [URL]
+
+[Body introducing the group, what they do, why STO readers might care, and how to get involved.
+
+**How it works:**
+- Bullet 1
+- Bullet 2
+- Bullet 3]
+[/SPOTLIGHT]
+
+
+[SECTION]
+Name: EVENT RECAPS
+[/SECTION]
+
+
+(------ Duplicate the [RECAP] block below for each event you're recapping. Recaps default to 2-column layout and pair up automatically. Add "Layout: full" inside any block you want to give the full width to. ------)
+
+[RECAP]
+Title: [Event name being recapped]
+Image: [hosted image URL — usually a square ~340px]
+
+[1–3 sentence recap of how the event went. Keep it conversational. Link to slides/resources if relevant.]
+[/RECAP]
+
+
+[SECTION]
+Name: LOCAL NEWS
+[/SECTION]
+
+
+(------ Replace the placeholder list items below. Each bullet is one news item: a hyperlinked headline, then **(Publication)** in bold. ------)
+
+[NEWS]
+- [Headline of news item](URL) **(Publication)**
+- [Headline of news item](URL) **(Publication)**
+- [Headline of news item](URL) **(Publication)**
+- [Headline of news item](URL) **(Publication)**
+- [Headline of news item](URL) **(Publication)**
+[/NEWS]
+
+
+(------ OPTIONAL SECTION — delete if no #DoTheMath image this month. ------)
+
+[SECTION]
+Name: #DoTheMath
+[/SECTION]
+
+
+[IMAGE-ONLY]
+Image: [hosted image URL of the #DoTheMath visual]
+[/IMAGE-ONLY]

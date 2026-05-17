@@ -1,0 +1,44 @@
+# ============================================================
+# CREDENTIALS — NEVER COMMIT
+# ============================================================
+# Service account JSON keys grant ongoing access to any Google
+# Doc shared with the service account email. If you commit one
+# to a public repo, anyone who finds it can read those Docs
+# until you rotate the key.
+#
+# If you accidentally commit one, rotate it IMMEDIATELY:
+#   Google Cloud Console → IAM & Admin → Service Accounts →
+#   pick the account → Keys → delete the leaked key and
+#   generate a new one. Force-push will NOT undo a leak — the
+#   commit lives in fork mirrors, GitHub's cache, scraper bots,
+#   and search indexes within seconds of pushing.
+# ============================================================
+*credentials*.json
+*service-account*.json
+*-key.json
+*sto-newsletter*.json
+.credentials/
+credentials/
+
+# Generated newsletter output (keep the committed reference)
+*-output.html
+newsletter-*.html
+!examples/may-2026-rendered.html
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
