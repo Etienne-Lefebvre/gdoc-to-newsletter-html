@@ -63,8 +63,8 @@ Open [`examples/may-2026-rendered.html`](examples/may-2026-rendered.html) in you
 2. **Set up Google Cloud auth** (one-time): follow [`docs/google-doc-setup.md`](docs/google-doc-setup.md). You'll end up with a service account JSON key and a Doc shared with the service account's email.
 
 3. **Get a Doc to parse.** Either:
-   - **Copy the master template:** [PASTE-MASTER-TEMPLATE-SHARE-LINK-HERE](#) → File → Make a Copy.
-   - **Copy the filled May 2026 example:** [PASTE-MAY-EXAMPLE-SHARE-LINK-HERE](#) → File → Make a Copy.
+   - **Master template (blank):** [click here to copy it to your Drive](https://docs.google.com/document/d/1hkdR-f7m8gfsSBGPvon6etNiEmhJiww8s8Eq_JOaMYU/copy)
+   - **Filled May 2026 example:** [click here to copy it to your Drive](https://docs.google.com/document/d/1oLFY4HDMMO4-xOY2UJVgFOhVjV2pQeS-B6ZfnjL1iQo/copy)
 
    Both are also available as `.docx` exports in [`examples/`](examples/) — upload to your own Drive if the share links don't work.
 
