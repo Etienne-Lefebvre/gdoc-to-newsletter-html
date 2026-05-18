@@ -43,7 +43,7 @@ flowchart TB
 
 ## What you get
 
-![Side-by-side comparison: the Google Doc with bracket-tagged content on the left, the rendered HTML newsletter on the right](docs/doc-vs-rendered-comparison.png)
+![Side-by-side comparison: the Google Doc with bracket-tagged content on the left, the rendered HTML newsletter on the right](docs/doc-vs-rendered-comparison-2.png)
 
 Open [`examples/may-2026-rendered.html`](examples/may-2026-rendered.html) in your browser to see real output — the May 2026 Strong Towns Ottawa newsletter rendered by this pipeline.
 
